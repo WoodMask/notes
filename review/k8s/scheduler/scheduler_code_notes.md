@@ -1,0 +1,3 @@
+# Scheduler源码阅读笔记
+## 调度队列activeQ、schedulableQ
+scheduler在底层进行调度的时候，使用了一种优先级队列来进行调度。其中又包含两条子队列，一条存放着所有待调度的pod，叫做activeQ；另外一条存放着一些将要被放弃调度的pod，叫做unschedulableQ。

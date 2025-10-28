@@ -1,0 +1,2 @@
+# iptables 笔记
+iptables是linux下一个防火墙工具，其底层依赖于linux内核中的netfilter框架，能够对网络数据包进行过滤修改等操作。
